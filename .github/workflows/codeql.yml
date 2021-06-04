@@ -13,11 +13,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@packs/v1
+        uses: github/codeql-action/init@aeisenberg/pack-run
         with:
             languages: javascript
             config-file: ./.github/codeql/codeql-config.yml
             tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210604/codeql-bundle-linux64.tar.gz
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@packs/v1
+        uses: github/codeql-action/analyze@aeisenberg/pack-run
