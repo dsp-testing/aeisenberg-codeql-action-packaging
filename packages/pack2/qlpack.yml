@@ -1,0 +1,4 @@
+---
+library: true
+name: dsp-testing/codeql-pack2
+version: 0.0.1
