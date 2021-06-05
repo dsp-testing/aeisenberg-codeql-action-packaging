@@ -17,7 +17,8 @@ jobs:
         with:
             languages: javascript
             config-file: ./.github/codeql/codeql-config.yml
-            tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210604/codeql-bundle-linux64.tar.gz
+            tools: https://api.github.com/repos/github/semmle-code/tarball/codeql-bundle-20210605
+            token: ${{ secrets.ARTIFACT_TOKEN }}
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@aeisenberg/pack-run
