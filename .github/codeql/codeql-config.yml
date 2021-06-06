@@ -1,5 +1,4 @@
 name: Pack testing in the CodeQL Action
-disable-default-queries: true
 packs:
   - dsp-testing/codeql-pack1@0.0.1
   - dsp-testing/codeql-pack2 # latest
