@@ -1,7 +1,7 @@
 /**
  * @name Empty or one block
  * @kind problem
- * @problem.severity warning
+ * @problem.severity error
  * @id javascript/example/empty-block
  */
 
