@@ -33,3 +33,4 @@ node_modules/
 packages/*/data
 packages/*/size
 packages/*/lock
+database

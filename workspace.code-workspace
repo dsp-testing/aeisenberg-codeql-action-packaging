@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "[database source archive]",
+			"uri": "codeql-zip-archive://0-100/Users/andrew.eisenberg/Eclipse/git-repos/github/aeisenberg-codeql-action-packaging/database/src.zip"
+		}
+	],
+	"settings": {}
+}
