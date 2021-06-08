@@ -2,7 +2,7 @@
  * @name Empty or one block
  * @kind problem
  * @problem.severity error
- * @id javascript/example/empty-block
+ * @id javascript/example/empty-or-one-block
  */
 
 import javascript

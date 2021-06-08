@@ -1,8 +1,8 @@
 /**
- * @name Empty or one block
+ * @name Two block
  * @kind problem
  * @problem.severity warning
- * @id javascript/example/empty-block
+ * @id javascript/example/two-block
  */
 
 import javascript
