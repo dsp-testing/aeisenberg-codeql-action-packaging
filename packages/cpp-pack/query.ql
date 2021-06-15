@@ -2,7 +2,7 @@
  * @name Empty or one block
  * @kind problem
  * @problem.severity error
- * @id cpp/example/empty-or-one-block
+ * @id cpp/example/dynamic-exception-specification
  */
 
 import cpp
