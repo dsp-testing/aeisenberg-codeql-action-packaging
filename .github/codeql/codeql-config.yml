@@ -4,6 +4,7 @@ disable-default-queries: true
 
 packs:
   - dsp-testing/cpp-pack # latest
+  - dsp-testing/common-cpp-coding-standards
 paths:
   - ./cpp-src
 paths-ignore:
