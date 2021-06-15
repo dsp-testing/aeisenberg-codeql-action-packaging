@@ -1,7 +1,7 @@
 ---
 library: false
 name: dsp-testing/cpp-pack
-version: 0.0.2
+version: 0.0.3
 dependencies:
   dsp-testing/codeql-cpp: ~0
   dsp-testing/common-cpp-coding-standards: ~0
