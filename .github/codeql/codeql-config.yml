@@ -1,6 +1,6 @@
 name: Pack testing in the CodeQL Action
 packs:
-  - dsp-testing/codeql-cpp-pack # latest
+  - dsp-testing/cpp-pack # latest
 paths:
   - ./cpp-src
 paths-ignore:
