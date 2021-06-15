@@ -23,7 +23,9 @@ jobs:
             tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210615/codeql-bundle-linux64.tar.gz
 
       - name: Autobuild
-        uses: github/codeql-action/autobuild@main
+        run: |
+          cd cpp-src
+          make
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@main
