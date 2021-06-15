@@ -1,4 +1,7 @@
 name: Pack testing in the CodeQL Action
+
+disable-default-queries: true
+
 packs:
   - dsp-testing/cpp-pack # latest
 paths:
