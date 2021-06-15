@@ -2,4 +2,5 @@
 library: false
 name: dsp-testing/codeql-pack1
 version: 0.0.3
-libraryPathDependencies: codeql-javascript
+dependencies:
+  github/codeql-javascript: 0.0.0

@@ -18,9 +18,10 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@aeisenberg/pack-run
         with:
-            languages: cpp
+            languages: javascript
             config-file: ./.github/codeql/codeql-config.yml
-            tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210615/codeql-bundle-linux64.tar.gz
+            # tools: https://api.github.com/repos/github/semmle-code/tarball/codeql-bundle-20210605
+            tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210606/codeql-bundle-linux64.tar.gz
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@aeisenberg/pack-run

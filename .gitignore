@@ -33,4 +33,5 @@ node_modules/
 packages/*/data
 packages/*/size
 packages/*/lock
-database
+*-database
+_lgtm_detected_source_root

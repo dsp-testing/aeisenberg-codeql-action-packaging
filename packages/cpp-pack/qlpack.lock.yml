@@ -1,0 +1,8 @@
+---
+dependencies:
+  dsp-testing/codeql-cpp:
+    version: 0.0.1
+  dsp-testing/common-cpp-coding-standards:
+    version: 0.0.1
+compiled: false
+lockVersion: 1.0.0
