@@ -9,6 +9,8 @@ on:
 
 jobs:
   codeql:
+    env:
+      GITHUB_TOKEN: ${{ secrets.PACKAGING_SECRET }}
     runs-on: ubuntu-latest
 
     steps:
