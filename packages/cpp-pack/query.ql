@@ -1,12 +1,11 @@
 /**
- * @name Empty or one block
+ * @name Dynamic exception text
  * @kind problem
  * @problem.severity error
  * @id cpp/example/dynamic-exception-specification
  */
 
 import cpp
-import codingstandards.cpp.Class
 import codingstandards.cpp.exceptions.ExceptionSpecifications
 
 from Function f

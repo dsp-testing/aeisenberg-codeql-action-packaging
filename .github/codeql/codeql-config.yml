@@ -3,8 +3,7 @@ name: Pack testing in the CodeQL Action
 disable-default-queries: true
 
 packs:
-  - dsp-testing/cpp-pack # latest
-  - dsp-testing/common-cpp-coding-standards
+  - dsp-testing/cpp-pack
 paths:
   - ./cpp-src
 paths-ignore:
