@@ -1,7 +1,10 @@
 name: Pack testing in the CodeQL Action
 disable-default-queries: true
+queries:
+  - name: Run custom javascript queries
+    uses: ./.github/codeql/queries
 packs:
-  - dsp-testing/codeql-pack1@0.0.1
+  # - dsp-testing/codeql-pack1@0.0.1
   - dsp-testing/codeql-pack2 # latest
 paths:
   - ./src
