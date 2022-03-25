@@ -17,7 +17,6 @@ jobs:
         with:
             languages: javascript
             config-file: ./.github/codeql/codeql-config.yml
-            tools: https://github.com/dsp-testing/codeql-cli-nightlies/releases/download/codeql-bundle-20211019/codeql-bundle-linux64.tar.gz
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@main
