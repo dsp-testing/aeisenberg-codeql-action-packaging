@@ -4,8 +4,11 @@ disable-default-queries: true
 #   - name: Run custom javascript queries
 #     uses: ./.github/queries
 packs:
-  - dsp-testing/codeql-pack1@0.2.0:suite.qls
-  - dsp-testing/codeql-pack2 # latest
+  # - dsp-testing/codeql-pack1@0.2.0:suite.qls
+  # - dsp-testing/codeql-pack2 # latest
+  - codeql/javascript-queries@0.0.11:codeql-suites/javascript-lgtm.qls
+  - codeql/javascript-queries@0.0.11
+  - codeql/javascript-queries
 paths:
   - ./src
 paths-ignore:

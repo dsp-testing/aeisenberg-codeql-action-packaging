@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@main
+        uses: github/codeql-action/init@aeisenberg/packs-with-paths
         with:
             languages: javascript
             config-file: ./.github/codeql/codeql-config.yml
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@main
+        uses: github/codeql-action/analyze@aeisenberg/packs-with-paths
