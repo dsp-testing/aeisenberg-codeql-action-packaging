@@ -1,0 +1,13 @@
+name: "Other"
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  codeql:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
