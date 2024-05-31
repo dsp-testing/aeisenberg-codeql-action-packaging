@@ -3,7 +3,7 @@ name: "Other"
 on:
   push:
   workflow_dispatch:
-  pull:
+  pull_request:
   workflow_run:
 
 jobs:
