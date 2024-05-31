@@ -12,13 +12,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # - name: Initialize CodeQL
-      #   uses: github/codeql-action/init@main
-      #   with:
-      #       languages: javascript
-      #       config-file: ./.github/codeql/codeql-config.yml
-      #       # tools: https://api.github.com/repos/github/semmle-code/tarball/codeql-bundle-20210605
-      #       # tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210606/codeql-bundle-linux64.tar.gz
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@main
+        with:
+            languages: javascript
+            config-file: ./.github/codeql/codeql-config.yml
+            # tools: https://api.github.com/repos/github/semmle-code/tarball/codeql-bundle-20210605
+            # tools: https://github.com/dsp-testing/aeisenberg-codeql-action-packaging/releases/download/codeql-bundle-20210606/codeql-bundle-linux64.tar.gz
 
-      # - name: Perform CodeQL Analysis
-      #   uses: github/codeql-action/analyze@main
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@main
