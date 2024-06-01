@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@vmain
+        uses: actions/checkout@main
