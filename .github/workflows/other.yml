@@ -9,5 +9,5 @@ jobs:
 
     steps:
       # This should trigger a missing actions permissions alert.
-      - name: Checkout repository
+      - name: Checkout repository without permissions
         uses: actions/checkout@main
