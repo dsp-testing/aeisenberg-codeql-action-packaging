@@ -12,13 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          # ls -l $RUNNER_TOOL_CACHE
-          loc="$(find $RUNNER_TOOL_CACHE -name 'CodeQL')"
-          if [ -z "$loc" ]; then
-            echo "CodeQL not found"
-            ls -R $RUNNER_TOOL_CACHE
-            exit 1
-          fi
+          ls -l $RUNNER_TOOL_CACHE
+          loc="$RUNNER_TOOL_CACHE/CodeQL"
 
           echo "CodeQL found at: $loc"
 
