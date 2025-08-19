@@ -1,4 +1,4 @@
-name: "Code Scanning - CodeQL"
+name: "Finding CodeQL"
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          ls -l $RUNNER_TOOL_CACHE
+          # ls -l $RUNNER_TOOL_CACHE
           echo "CodeQL location:"
           loc="$(find $RUNNER_TOOL_CACHE -name 'CodeQL')"
           if [ -z "$loc" ]; then
@@ -23,4 +23,9 @@ jobs:
 
           echo "CodeQL found at: $loc"
 
-          ls -l "$loc/*/*"
+          echo "-------------------------------"
+          ls -l "$loc"/*
+          echo "-------------------------------"
+          ls -l "$loc"/*/*
+          echo "-------------------------------"
+          ls -l "$loc"/*/*/*
