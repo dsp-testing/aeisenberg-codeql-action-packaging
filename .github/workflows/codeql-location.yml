@@ -13,7 +13,6 @@ jobs:
     steps:
       - run: |
           # ls -l $RUNNER_TOOL_CACHE
-          echo "CodeQL location:"
           loc="$(find $RUNNER_TOOL_CACHE -name 'CodeQL')"
           if [ -z "$loc" ]; then
             echo "CodeQL not found"
