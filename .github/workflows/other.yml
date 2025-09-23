@@ -3,6 +3,9 @@ name: "Other"
 on:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   other:
     runs-on: ubuntu-latest
